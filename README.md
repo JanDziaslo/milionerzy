@@ -1,4 +1,4 @@
 # milionerzy
 
-> [!WARNING]
+> [!NOTE]
 > Autorzy: 
