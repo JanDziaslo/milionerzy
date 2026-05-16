@@ -280,16 +280,336 @@ Trudność: 1/5
 
 ### Usługi chmurowe i infrastruktura jako usługa (IaaS)
 
+P: Co oznacza skrót IaaS?
+- [x] Infrastructure as a Service
+- [] Internet as a Service
+- [] Integrated Application System
+- [] Internal Access Server
+
+Trudność: 1/5
+
+P: Który z poniższych serwisów AWS jest przykładem usługi IaaS?
+- [] Amazon S3 (samodzielnie)
+- [x] Amazon EC2
+- [] AWS Lambda
+- [] Amazon RDS
+
+Trudność: 2/5
+
+P: Co to jest model chmury publicznej (public cloud)?
+- [x] Infrastruktura współdzielona przez wielu klientów, dostępna przez internet
+- [] Serwer fizyczny znajdujący się w siedzibie firmy
+- [] Sieć lokalna odizolowana od internetu
+- [] Prywatna sieć VPN dla jednego użytkownika
+
+Trudność: 1/5
+
+P: Co oznacza skrót SLA w kontekście usług chmurowych?
+- [x] Service Level Agreement — umowa o poziomie usług
+- [] Secure Login Authentication
+- [] System Load Analyzer
+- [] Standard Library Architecture
+
+Trudność: 2/5
+
+P: Jaka jest główna różnica między modelem IaaS a SaaS?
+- [x] W IaaS użytkownik zarządza systemem operacyjnym, w SaaS korzysta z gotowej aplikacji
+- [] IaaS jest zawsze darmowy, a SaaS jest płatny
+- [] SaaS wymaga fizycznych serwerów, a IaaS nie
+- [] Nie ma żadnej różnicy, to synonimy
+
+Trudność: 3/5
+
 ### Sztuczna inteligencja
+
+P: Co oznacza skrót ML w kontekście sztucznej inteligencji?
+- [x] Machine Learning (uczenie maszynowe)
+- [] Memory Logic
+- [] Multi Layer
+- [] Meta Language
+
+Trudność: 1/5
+
+P: Który typ uczenia maszynowego wykorzystuje dane z etykietami do trenowania modelu?
+- [x] Uczenie nadzorowane (supervised learning)
+- [] Uczenie nienadzorowane (unsupervised learning)
+- [] Uczenie przez wzmacnianie (reinforcement learning)
+- [] Uczenie transferowe (transfer learning)
+
+Trudność: 2/5
+
+P: Co to jest „overfitting" (przetrenowanie) w uczeniu maszynowym?
+- [x] Zbyt duże dopasowanie modelu do danych treningowych, w tym do szumów
+- [] Zbyt mała liczba danych treningowych
+- [] Zbyt wolne trenowanie modelu
+- [] Brak wystarczającej liczby warstw w sieci neuronowej
+
+Trudność: 3/5
+
+P: Co oznacza termin NLP w kontekście sztucznej inteligencji?
+- [x] Natural Language Processing — przetwarzanie języka naturalnego
+- [] Neural Learning Protocol
+- [] Network Layer Processing
+- [] Non-Linear Programming
+
+Trudność: 2/5
+
+P: Który z poniższych przykładów jest zastosowaniem NLP?
+- [x] Automatyczne tłumaczenie tekstu z jednego języka na inny
+- [] Rozpoznawanie twarzy na zdjęciach
+- [] Sterowanie robotem przemysłowym
+- [] Kompresja plików graficznych
+
+Trudność: 2/5
 
 ### Kryptografia
 
+P: Co to jest kryptografia symetryczna?
+- [x] Ten sam klucz służy zarówno do szyfrowania, jak i deszyfrowania danych
+- [] Do szyfrowania używany jest klucz publiczny, a do deszyfrowania prywatny
+- [] Dane są szyfrowane bez użycia klucza
+- [] Każdy użytkownik ma unikalny algorytm szyfrowania
+
+Trudność: 2/5
+
+P: Który algorytm jest przykładem kryptografii asymetrycznej?
+- [] AES
+- [x] RSA
+- [] DES
+- [] Blowfish
+
+Trudność: 2/5
+
+P: Co to jest funkcja skrótu (hash) w kryptografii?
+- [x] Jednokierunkowa funkcja przekształcająca dane w ciąg o stałej długości
+- [] Algorytm do szyfrowania plików
+- [] Metoda kompresji danych bez strat
+- [] Protokół wymiany kluczy
+
+Trudność: 3/5
+
+P: Co oznacza skrót SSL?
+- [x] Secure Sockets Layer
+- [] Simple Security Layer
+- [] System Socket Library
+- [] Standard Secure Link
+
+Trudność: 2/5
+
+P: Co to jest certyfikat cyfrowy?
+- [x] Dokument elektroniczny potwierdzający tożsamość właściciela klucza publicznego
+- [] Hasło do konta w serwisie internetowym
+- [] Licencja na używanie oprogramowania
+- [] Kod aktywacyjny systemu operacyjnego
+
+Trudność: 2/5
+
 ### Konteneryzacja Docker
+
+P: Co to jest kontener w kontekście Dockera?
+- [x] Lekka, izolowana instancja aplikacji z własnym środowiskiem uruchomieniowym
+- [] Maszyna wirtualna z pełnym systemem operacyjnym
+- [] Fizyczny serwer w centrum danych
+- [] Archiwum plików skompresowanych
+
+Trudność: 1/5
+
+P: Jaki plik konfiguracyjny definiuje sposób budowania obrazu Dockera?
+- [] docker-compose.yml
+- [x] Dockerfile
+- [] config.yaml
+- [] Docker.json
+
+Trudność: 1/5
+
+P: Co to jest obraz (image) w Dockerze?
+- [x] Niezmienialny szablon używany do tworzenia kontenerów
+- [] Zrzut ekranu z działającego kontenera
+- [] Plik konfiguracyjny sieci
+- [] Dziennik zdarzeń kontenera
+
+Trudność: 2/5
+
+P: Które polecenie służy do uruchomienia nowego kontenera z obrazu?
+- [] docker build
+- [x] docker run
+- [] docker create
+- [] docker start
+
+Trudność: 1/5
+
+P: Co to jest Docker Compose?
+- [x] Narzędzie do definiowania i uruchamiania wielu kontenerów za pomocą pliku YAML
+- [] Edytor tekstu do tworzenia Dockerfile
+- [] System monitorowania zasobów kontenerów
+- [] Rejestr obrazów Dockera w chmurze
+
+Trudność: 2/5
 
 ### Prawo i etyka w IT
 
+P: Co to jest RODO?
+- [x] Rozporządzenie o ochronie danych osobowych (polski odpowiednik GDPR)
+- [] Rejestr Oprogramowania i Danych Online
+- [] Rada Organizacji ds. Rozwoju Online
+- [] System raportowania danych operacyjnych
+
+Trudność: 1/5
+
+P: Co oznacza licencja open source?
+- [x] Pozwala na darmowe korzystanie, modyfikację i dystrybucję oprogramowania
+- [] Zabrania jakichkolwiek modyfikacji kodu
+- [] Oznacza, że oprogramowanie jest własnością państwa
+- [] Wymaga zakupu klucza aktywacyjnego
+
+Trudność: 1/5
+
+P: Co to jest NDA w kontekście pracy w IT?
+- [x] Umowa o poufności (Non-Disclosure Agreement)
+- [] Umowa o pracę na czas nieokreślony
+- [] Certyfikat kompetencji zawodowych
+- [] Regulamin korzystania z internetu
+
+Trudność: 2/5
+
+P: Które prawo w Polsce chroni twórców oprogramowania?
+- [x] Ustawa o prawie autorskim i prawach pokrewnych
+- [] Kodeks pracy
+- [] Prawo telekomunikacyjne
+- [] Ustawa o ochronie konkurencji
+
+Trudność: 2/5
+
+P: Co to jest klauzula non-compete?
+- [x] Zakaz konkurencji ograniczający podejmowanie pracy u konkurencji po zakończeniu współpracy
+- [] Klauzula dotycząca ochrony danych osobowych
+- [] Zgoda na przetwarzanie danych w chmurze
+- [] Umowa licencyjna na oprogramowanie
+
+Trudność: 3/5
+
 ### Hardware
+
+P: Co to jest CPU?
+- [x] Centralna jednostka przetwarzająca (procesor) — „mózg" komputera
+- [] Karta graficzna
+- [] Pamięć operacyjna RAM
+- [] Dysk twardy
+
+Trudność: 1/5
+
+P: Który komponent komputera odpowiada za tymczasowe przechowywanie danych używanych aktualnie przez procesor?
+- [] Dysk HDD
+- [x] Pamięć RAM
+- [] Karta sieciowa
+- [] Zasilacz
+
+Trudność: 1/5
+
+P: Co to jest GPU?
+- [x] Jednostka przetwarzania grafiki (karta graficzna)
+- [] Procesor główny komputera
+- [] Moduł pamięci podręcznej
+- [] Kontroler dysków twardych
+
+Trudność: 1/5
+
+P: Jaki interfejs jest obecnie najczęściej używany do podłączania szybkich dysków SSD w komputerach stacjonarnych?
+- [] IDE
+- [x] NVMe (przez slot M.2)
+- [] PS/2
+- [] VGA
+
+Trudność: 2/5
+
+P: Co oznacza skrót BIOS?
+- [x] Basic Input/Output System — oprogramowanie startowe płyty głównej
+- [] Binary Integrated Operating System
+- [] Basic Internet Online Service
+- [] Built-In Output Standard
+
+Trudność: 2/5
 
 ### Kopie zapasowe i archiwizacja
 
+P: Co to jest kopia zapasowa typu full (pełna)?
+- [x] Kopia wszystkich wybranych danych, niezależnie od tego, czy uległy zmianie
+- [] Kopia tylko plików zmienionych od ostatniego tygodnia
+- [] Kopia tylko plików systemowych
+- [] Kopia konfiguracji bez danych użytkownika
+
+Trudność: 1/5
+
+P: Co oznacza reguła 3-2-1 w kopiach zapasowych?
+- [x] 3 kopie danych, na 2 różnych nośnikach, z 1 kopią poza siedzibą
+- [] 3 serwery, 2 dyski, 1 sieć
+- [] 3 hasła, 2 klucze, 1 certyfikat
+- [] 3 warstwy zabezpieczeń, 2 firewalle, 1 antywirus
+
+Trudność: 2/5
+
+P: Co to jest kopia inkrementalna (przyrostowa)?
+- [x] Kopiuje tylko dane zmienione od ostatniej kopii (dowolnego typu)
+- [] Kopiuje wszystkie dane za każdym razem
+- [] Kopiuje tylko dane usunięte
+- [] Kopiuje dane w czasie rzeczywistym bez harmonogramu
+
+Trudność: 2/5
+
+P: Co to jest RTO (Recovery Time Objective) w kontekście kopii zapasowych?
+- [x] Maksymalny dopuszczalny czas potrzebny na przywrócenie systemu po awarii
+- [] Czas tworzenia kopii zapasowej
+- [] Liczba kopii zapasowych przechowywanych równocześnie
+- [] Rozmiar kopii zapasowej w gigabajtach
+
+Trudność: 3/5
+
+P: Który format archiwizacji jest powszechnie używany w systemach Linux?
+- [x] tar.gz
+- [] .exe
+- [] .dll
+- [] .bat
+
+Trudność: 1/5
+
 ### Projektowanie stron internetowych
+
+P: Co to jest HTML?
+- [x] Język znaczników służący do tworzenia struktury stron internetowych
+- [] Język programowania do tworzenia gier
+- [] System bazodanowy
+- [] Protokół przesyłania plików
+
+Trudność: 1/5
+
+P: Co to jest CSS?
+- [x] Kaskadowe arkusze stylów służące do definiowania wyglądu stron
+- [] Język programowania do tworzenia serwerów
+- [] Narzędzie do edycji zdjęć
+- [] System zarządzania treścią
+
+Trudność: 1/5
+
+P: Co oznacza termin „responsive design" (projektowanie responsywne)?
+- [x] Tworzenie stron automatycznie dostosowujących się do różnych rozmiarów ekranu
+- [] Projektowanie stron tylko na komputery stacjonarne
+- [] Szybkie ładowanie się strony internetowej
+- [] Odpowiadanie na komentarze użytkowników
+
+Trudność: 2/5
+
+P: Co to jest wireframe w projektowaniu stron?
+- [x] Szkic układu strony pokazujący rozmieszczenie elementów bez szczegółów graficznych
+- [] Gotowa strona internetowa opublikowana w internecie
+- [] Baza danych użytkowników
+- [] Certyfikat bezpieczeństwa strony
+
+Trudność: 2/5
+
+P: Które z poniższych działań jest zasadą dostępności (accessibility) stron internetowych?
+- [x] Zapewnienie alternatywnego tekstu (alt) dla obrazów
+- [] Używanie jak najmniejszego rozmiaru czcionki
+- [] Ukrywanie menu nawigacyjnego
+- [] Stosowanie wyłącznie koloru do przekazywania informacji
+
+Trudność: 2/5
