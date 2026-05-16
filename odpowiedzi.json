@@ -1,0 +1,322 @@
+{
+  "algorytmy_i_struktury_danych": [
+    {
+      "id": 1,
+      "odpowiedz": 1
+    },
+    {
+      "id": 2,
+      "odpowiedz": 2
+    },
+    {
+      "id": 3,
+      "odpowiedz": 2
+    },
+    {
+      "id": 4,
+      "odpowiedz": 3
+    },
+    {
+      "id": 5,
+      "odpowiedz": 3
+    }
+  ],
+  "systemy_operacyjne": [
+    {
+      "id": 1,
+      "odpowiedz": 1
+    },
+    {
+      "id": 2,
+      "odpowiedz": 2
+    },
+    {
+      "id": 3,
+      "odpowiedz": 2
+    },
+    {
+      "id": 4,
+      "odpowiedz": 3
+    },
+    {
+      "id": 5,
+      "odpowiedz": 3
+    }
+  ],
+  "sieci_komputerowe": [
+    {
+      "id": 1,
+      "odpowiedz": 2
+    },
+    {
+      "id": 2,
+      "odpowiedz": 3
+    },
+    {
+      "id": 3,
+      "odpowiedz": 2
+    },
+    {
+      "id": 4,
+      "odpowiedz": 3
+    },
+    {
+      "id": 5,
+      "odpowiedz": 3
+    }
+  ],
+  "cyberbezpieczeństwo": [
+    {
+      "id": 1,
+      "odpowiedz": 1
+    },
+    {
+      "id": 2,
+      "odpowiedz": 1
+    },
+    {
+      "id": 3,
+      "odpowiedz": 1
+    },
+    {
+      "id": 4,
+      "odpowiedz": 1
+    },
+    {
+      "id": 5,
+      "odpowiedz": 1
+    },
+    {
+      "id": 6,
+      "odpowiedz": 1
+    }
+  ],
+  "bazy_danych": [
+    {
+      "id": 1,
+      "odpowiedz": 1
+    },
+    {
+      "id": 2,
+      "odpowiedz": 1
+    },
+    {
+      "id": 3,
+      "odpowiedz": 1
+    },
+    {
+      "id": 4,
+      "odpowiedz": 1
+    },
+    {
+      "id": 5,
+      "odpowiedz": 1
+    },
+    {
+      "id": 6,
+      "odpowiedz": 1
+    }
+  ],
+  "języki_programowania": [
+    {
+      "id": 1,
+      "odpowiedz": 1
+    },
+    {
+      "id": 2,
+      "odpowiedz": 1
+    },
+    {
+      "id": 3,
+      "odpowiedz": 1
+    },
+    {
+      "id": 4,
+      "odpowiedz": 1
+    },
+    {
+      "id": 5,
+      "odpowiedz": 3
+    },
+    {
+      "id": 6,
+      "odpowiedz": 3
+    }
+  ],
+  "usługi_chmurowe_iaas": [
+    {
+      "id": 1,
+      "odpowiedz": 1
+    },
+    {
+      "id": 2,
+      "odpowiedz": 2
+    },
+    {
+      "id": 3,
+      "odpowiedz": 1
+    },
+    {
+      "id": 4,
+      "odpowiedz": 1
+    },
+    {
+      "id": 5,
+      "odpowiedz": 1
+    }
+  ],
+  "sztuczna_inteligencja": [
+    {
+      "id": 1,
+      "odpowiedz": 1
+    },
+    {
+      "id": 2,
+      "odpowiedz": 1
+    },
+    {
+      "id": 3,
+      "odpowiedz": 1
+    },
+    {
+      "id": 4,
+      "odpowiedz": 1
+    },
+    {
+      "id": 5,
+      "odpowiedz": 1
+    }
+  ],
+  "kryptografia": [
+    {
+      "id": 1,
+      "odpowiedz": 1
+    },
+    {
+      "id": 2,
+      "odpowiedz": 2
+    },
+    {
+      "id": 3,
+      "odpowiedz": 1
+    },
+    {
+      "id": 4,
+      "odpowiedz": 2
+    },
+    {
+      "id": 5,
+      "odpowiedz": 1
+    }
+  ],
+  "konteneryzacja_docker": [
+    {
+      "id": 1,
+      "odpowiedz": 1
+    },
+    {
+      "id": 2,
+      "odpowiedz": 2
+    },
+    {
+      "id": 3,
+      "odpowiedz": 1
+    },
+    {
+      "id": 4,
+      "odpowiedz": 2
+    },
+    {
+      "id": 5,
+      "odpowiedz": 1
+    }
+  ],
+  "prawo_i_etyka_w_it": [
+    {
+      "id": 1,
+      "odpowiedz": 1
+    },
+    {
+      "id": 2,
+      "odpowiedz": 1
+    },
+    {
+      "id": 3,
+      "odpowiedz": 1
+    },
+    {
+      "id": 4,
+      "odpowiedz": 1
+    },
+    {
+      "id": 5,
+      "odpowiedz": 1
+    }
+  ],
+  "hardware": [
+    {
+      "id": 1,
+      "odpowiedz": 1
+    },
+    {
+      "id": 2,
+      "odpowiedz": 2
+    },
+    {
+      "id": 3,
+      "odpowiedz": 1
+    },
+    {
+      "id": 4,
+      "odpowiedz": 2
+    },
+    {
+      "id": 5,
+      "odpowiedz": 1
+    }
+  ],
+  "kopie_zapasowe_i_archiwizacja": [
+    {
+      "id": 1,
+      "odpowiedz": 1
+    },
+    {
+      "id": 2,
+      "odpowiedz": 1
+    },
+    {
+      "id": 3,
+      "odpowiedz": 1
+    },
+    {
+      "id": 4,
+      "odpowiedz": 1
+    },
+    {
+      "id": 5,
+      "odpowiedz": 1
+    }
+  ],
+  "projektowanie_stron_internetowych": [
+    {
+      "id": 1,
+      "odpowiedz": 1
+    },
+    {
+      "id": 2,
+      "odpowiedz": 1
+    },
+    {
+      "id": 3,
+      "odpowiedz": 1
+    },
+    {
+      "id": 4,
+      "odpowiedz": 1
+    },
+    {
+      "id": 5,
+      "odpowiedz": 1
+    }
+  ]
+}
