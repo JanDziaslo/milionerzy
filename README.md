@@ -30,4 +30,7 @@ Prześlij do oceny cały projekt zwierający zarówno plik py jak i 3 pliki txt 
 ```
 
 > [!NOTE]
-> Autorzy: @JanDziaslo @Mord0reK @Szopen2137
+> Autorzy: 
+> [JanDziaslo](https://github.com/JanDziaslo) (Bartosz N.)
+> [Mord0reK](https://github.com/Mord0reK) (Marcel S.)
+> [Szopen2137](https://github.com/Szopen2137) (Szymon T.)
