@@ -46,9 +46,9 @@ Trudność: 1/5
 
 P: Jaka jest główna rola systemu operacyjnego?
 - [x] Zarządzanie zasobami komputera i uruchamianiem programów
-- [] Pisanie kodu za użytkownika
-- [] Zastępowanie procesora w obliczeniach
-- [] Szyfrowanie całego internetu
+- [] Tworzenie kopii zapasowych wszystkich plików użytkownika
+- [] Kompilowanie każdego programu przed uruchomieniem
+- [] Zastępowanie pamięci RAM w obliczeniach
 
 Trudność: 1/5
 
@@ -62,9 +62,9 @@ Trudność: 1/5
 
 P: Do czego służy pamięć wirtualna?
 - [] Do fizycznego zwiększenia liczby kości RAM
-- [x] Do rozszerzenia dostępnej pamięci przez użycie przestrzeni dyskowej
-- [] Do przyspieszenia monitora
-- [] Do wyłączania procesów systemowych
+- [x] Do rozszerzenia dostępnej pamięci przez wykorzystanie przestrzeni dyskowej
+- [] Do przechowywania wyłącznie sterowników urządzeń
+- [] Do zwiększania liczby rdzeni procesora
 
 Trudność: 2/5
 
@@ -94,11 +94,11 @@ P: Co oznacza skrót IP?
 
 Trudność: 1/5
 
-P: Który protokół jest najczęściej używany do wyświetlania stron WWW?
+P: Który protokół służy do bezpiecznego wyświetlania stron WWW?
 - [] FTP
 - [] SSH
-- [x] HTTP
-- [] DHCP
+- [x] HTTPS
+- [] HTTP
 
 Trudność: 1/5
 
@@ -112,7 +112,7 @@ Trudność: 1/5
 
 P: Które urządzenie zwykle łączy sieć lokalną z internetem?
 - [] Monitor
-- [] Switch warstwy aplikacji tekstowej
+- [] Switch (Przełącznik sieciowy)
 - [x] Router
 - [] Dysk SSD
 
@@ -139,8 +139,8 @@ Trudność: 1/5
 P: Jaki jest główny cel stosowania szyfrowania danych?
 - [x] Utrudnienie odczytu danych osobom nieuprawnionym
 - [] Przyspieszenie działania internetu
-- [] Zmniejszenie rozmiaru plików bez utraty jakości
-- [] Ułatwienie debugowania aplikacji
+- [] Ułatwienie indeksowania plików przez system
+- [] Zwiększenie rozdzielczości przesyłanych obrazów
 
 Trudność: 2/5
 
@@ -170,9 +170,9 @@ Trudność: 1/5
 
 P: Co jest typowym objawem infekcji złośliwym oprogramowaniem na komputerze użytkownika?
 - [x] Niespodziewane otwieranie się okien, spowolnienia i dziwne procesy w tle
-- [] Natychmiastowe wyłączenie możliwości uruchamiania gier
-- [] Zniknięcie systemu operacyjnego z dysku fizycznie
-- [] Stałe zwiększenie częstotliwości procesora przez BIOS
+- [] Poprawa wydajności komputera i skrócenie czasu uruchamiania systemu
+- [] Automatyczne zwiększenie pojemności dysku
+- [] Trwałe obniżenie rozdzielczości monitora przez producenta
 
 Trudność: 2/5
 
@@ -246,10 +246,10 @@ P: Co to jest składnia (syntax) języka programowania?
 
 Trudność: 1/5
 
-P: Co oznacza pojęcie „typ statyczny” (statyczne typowanie)?
-- [x] Typ zmiennej jest sprawdzany na etapie kompilacji
+P: Co oznacza pojęcie „statyczne typowanie”?
+- [x] Typy danych są sprawdzane przed uruchomieniem programu
 - [] Typ zmiennej nigdy nie jest sprawdzany
-- [] Typ zmiennej może być dowolnie zmieniany w trakcie działania programu bez ograniczeń
+- [] Typ zmiennej można zawsze dowolnie zmieniać bez ograniczeń
 - [] Typ zmiennej zależy wyłącznie od nazwy pliku
 
 Trudność: 3/5
@@ -289,7 +289,7 @@ P: Co oznacza skrót IaaS?
 Trudność: 1/5
 
 P: Który z poniższych serwisów AWS jest przykładem usługi IaaS?
-- [] Amazon S3 (samodzielnie)
+- [] Amazon S3
 - [x] Amazon EC2
 - [] AWS Lambda
 - [] Amazon RDS
@@ -388,11 +388,11 @@ P: Co to jest funkcja skrótu (hash) w kryptografii?
 
 Trudność: 3/5
 
-P: Co oznacza skrót SSL?
-- [x] Secure Sockets Layer
-- [] Simple Security Layer
-- [] System Socket Library
-- [] Standard Secure Link
+P: Który protokół jest współcześnie używany zamiast historycznego SSL do zabezpieczania połączeń WWW?
+- [] SSH
+- [x] TLS
+- [] FTP
+- [] DNS
 
 Trudność: 2/5
 
@@ -438,18 +438,18 @@ P: Które polecenie służy do uruchomienia nowego kontenera z obrazu?
 
 Trudność: 1/5
 
-P: Co to jest Docker Compose?
-- [x] Narzędzie do definiowania i uruchamiania wielu kontenerów za pomocą pliku YAML
-- [] Edytor tekstu do tworzenia Dockerfile
-- [] System monitorowania zasobów kontenerów
-- [] Rejestr obrazów Dockera w chmurze
+P: Do czego służy Docker Compose?
+- [x] Do definiowania i uruchamiania wielu kontenerów za pomocą pliku YAML
+- [] Do budowania jądra systemu Linux
+- [] Do kompresji obrazów Dockera
+- [] Do monitorowania temperatury serwera
 
 Trudność: 2/5
 
 ### Prawo i etyka w IT
 
 P: Co to jest RODO?
-- [x] Rozporządzenie o ochronie danych osobowych (polski odpowiednik GDPR)
+- [x] Polska nazwa unijnego rozporządzenia o ochronie danych osobowych (GDPR)
 - [] Rejestr Oprogramowania i Danych Online
 - [] Rada Organizacji ds. Rozwoju Online
 - [] System raportowania danych operacyjnych
@@ -457,10 +457,10 @@ P: Co to jest RODO?
 Trudność: 1/5
 
 P: Co oznacza licencja open source?
-- [x] Pozwala na darmowe korzystanie, modyfikację i dystrybucję oprogramowania
+- [x] Pozwala na używanie, analizę, modyfikację i dystrybucję kodu zgodnie z warunkami licencji
 - [] Zabrania jakichkolwiek modyfikacji kodu
-- [] Oznacza, że oprogramowanie jest własnością państwa
-- [] Wymaga zakupu klucza aktywacyjnego
+- [] Oznacza, że oprogramowanie nie ma autora
+- [] Wymaga wyłącznie komercyjnego użycia
 
 Trudność: 1/5
 
@@ -491,7 +491,7 @@ Trudność: 3/5
 ### Hardware
 
 P: Co to jest CPU?
-- [x] Centralna jednostka przetwarzająca (procesor) — „mózg" komputera
+- [x] Centralna jednostka przetwarzająca, czyli procesor wykonujący instrukcje programu
 - [] Karta graficzna
 - [] Pamięć operacyjna RAM
 - [] Dysk twardy
@@ -507,16 +507,16 @@ P: Który komponent komputera odpowiada za tymczasowe przechowywanie danych uży
 Trudność: 1/5
 
 P: Co to jest GPU?
-- [x] Jednostka przetwarzania grafiki (karta graficzna)
+- [x] Procesor graficzny odpowiedzialny za obliczenia związane z grafiką
 - [] Procesor główny komputera
 - [] Moduł pamięci podręcznej
 - [] Kontroler dysków twardych
 
 Trudność: 1/5
 
-P: Jaki interfejs jest obecnie najczęściej używany do podłączania szybkich dysków SSD w komputerach stacjonarnych?
+P: Jaki standard jest najczęściej używany do podłączania szybkich dysków SSD w nowoczesnych komputerach?
 - [] IDE
-- [x] NVMe (przez slot M.2)
+- [x] NVMe
 - [] PS/2
 - [] VGA
 
@@ -549,10 +549,10 @@ P: Co oznacza reguła 3-2-1 w kopiach zapasowych?
 Trudność: 2/5
 
 P: Co to jest kopia inkrementalna (przyrostowa)?
-- [x] Kopiuje tylko dane zmienione od ostatniej kopii (dowolnego typu)
-- [] Kopiuje wszystkie dane za każdym razem
-- [] Kopiuje tylko dane usunięte
-- [] Kopiuje dane w czasie rzeczywistym bez harmonogramu
+- [x] Kopia obejmująca tylko dane zmienione od czasu wykonania ostatniej kopii zapasowej
+- [] Kopia wszystkich danych wykonywana za każdym razem
+- [] Kopia tylko plików usuniętych
+- [] Kopia działająca wyłącznie w czasie rzeczywistym
 
 Trudność: 2/5
 

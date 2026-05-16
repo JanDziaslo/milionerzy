@@ -1,0 +1,1709 @@
+{
+  "algorytmy_i_struktury_danych": [
+    {
+      "id": 1,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Jak rośnie liczba operacji wraz ze wzrostem rozmiaru danych"
+        },
+        {
+          "id": 2,
+          "tresc": "Jak dużo miejsca zajmuje plik źródłowy programu"
+        },
+        {
+          "id": 3,
+          "tresc": "Jak szybko działa komputer użytkownika"
+        },
+        {
+          "id": 4,
+          "tresc": "Jak długo program był pisany"
+        }
+      ],
+      "pytanie": "Co opisuje złożoność czasowa algorytmu?",
+      "trudnosc": 1
+    },
+    {
+      "id": 2,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Kolejka"
+        },
+        {
+          "id": 2,
+          "tresc": "Stos"
+        },
+        {
+          "id": 3,
+          "tresc": "Lista dwukierunkowa"
+        },
+        {
+          "id": 4,
+          "tresc": "Tablica haszująca"
+        }
+      ],
+      "pytanie": "Która struktura danych działa zgodnie z zasadą LIFO (Last In First Out)?",
+      "trudnosc": 1
+    },
+    {
+      "id": 3,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Przeszukiwanie liniowe"
+        },
+        {
+          "id": 2,
+          "tresc": "Przeszukiwanie binarne"
+        },
+        {
+          "id": 3,
+          "tresc": "BFS"
+        },
+        {
+          "id": 4,
+          "tresc": "DFS"
+        }
+      ],
+      "pytanie": "Który algorytm przeszukiwania wymaga zwykle posortowanych danych?",
+      "trudnosc": 2
+    },
+    {
+      "id": 4,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Stos"
+        },
+        {
+          "id": 2,
+          "tresc": "Kolejka"
+        },
+        {
+          "id": 3,
+          "tresc": "Tablica haszująca"
+        },
+        {
+          "id": 4,
+          "tresc": "Kopiec binarny"
+        }
+      ],
+      "pytanie": "Która struktura danych najlepiej pasuje do przechowywania par klucz-wartość?",
+      "trudnosc": 2
+    },
+    {
+      "id": 5,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Graf pełny"
+        },
+        {
+          "id": 2,
+          "tresc": "Tablica dynamiczna"
+        },
+        {
+          "id": 3,
+          "tresc": "Drzewo"
+        },
+        {
+          "id": 4,
+          "tresc": "Kolejka cykliczna"
+        }
+      ],
+      "pytanie": "Jak nazywa się struktura danych używana często do reprezentacji hierarchii, np. systemu plików?",
+      "trudnosc": 1
+    }
+  ],
+  "bazy_danych": [
+    {
+      "id": 1,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Zbiór rekordów (wierszy) o tej samej strukturze kolumn"
+        },
+        {
+          "id": 2,
+          "tresc": "Zbiór plików tekstowych przechowywanych w katalogu"
+        },
+        {
+          "id": 3,
+          "tresc": "Algorytm sortowania rekordów po identyfikatorze"
+        },
+        {
+          "id": 4,
+          "tresc": "Graf powiązań między serwerami"
+        }
+      ],
+      "pytanie": "Co to jest tabela w relacyjnej bazie danych?",
+      "trudnosc": 1
+    },
+    {
+      "id": 2,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Structured Query Language"
+        },
+        {
+          "id": 2,
+          "tresc": "Simple Query List"
+        },
+        {
+          "id": 3,
+          "tresc": "Secure Queue Logic"
+        },
+        {
+          "id": 4,
+          "tresc": "Standard Quick Library"
+        }
+      ],
+      "pytanie": "Co oznacza skrót SQL?",
+      "trudnosc": 1
+    },
+    {
+      "id": 3,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Do jednoznacznej identyfikacji każdego rekordu w tabeli"
+        },
+        {
+          "id": 2,
+          "tresc": "Do przechowywania największej liczby wierszy"
+        },
+        {
+          "id": 3,
+          "tresc": "Do szyfrowania całej zawartości tabeli"
+        },
+        {
+          "id": 4,
+          "tresc": "Do łączenia baz danych różnych producentów"
+        }
+      ],
+      "pytanie": "Do czego służy klucz główny (PRIMARY KEY) w tabeli?",
+      "trudnosc": 2
+    },
+    {
+      "id": 4,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "SELECT"
+        },
+        {
+          "id": 2,
+          "tresc": "INSERT"
+        },
+        {
+          "id": 3,
+          "tresc": "UPDATE"
+        },
+        {
+          "id": 4,
+          "tresc": "DELETE"
+        }
+      ],
+      "pytanie": "Jaka operacja SQL służy do pobierania danych z tabeli?",
+      "trudnosc": 1
+    },
+    {
+      "id": 5,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Powiązanie między rekordami w dwóch tabelach za pomocą kluczy"
+        },
+        {
+          "id": 2,
+          "tresc": "Przypadkowa kolejność wierszy w tabeli"
+        },
+        {
+          "id": 3,
+          "tresc": "Archiwum logów serwera"
+        },
+        {
+          "id": 4,
+          "tresc": "Kopia zapasowa plików konfiguracyjnych"
+        }
+      ],
+      "pytanie": "Które z poniższych najlepiej opisuje pojęcie 'relacja' w relacyjnej bazie danych?",
+      "trudnosc": 2
+    },
+    {
+      "id": 6,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Aby przyspieszyć wyszukiwanie danych po wybranych kolumnach"
+        },
+        {
+          "id": 2,
+          "tresc": "Aby zablokować możliwość odczytu danych"
+        },
+        {
+          "id": 3,
+          "tresc": "Aby zawsze sortować tabele rosnąco"
+        },
+        {
+          "id": 4,
+          "tresc": "Aby zmniejszyć liczbę kolumn w tabeli"
+        }
+      ],
+      "pytanie": "Po co stosuje się indeksy w bazach danych?",
+      "trudnosc": 2
+    }
+  ],
+  "cyberbezpieczeństwo": [
+    {
+      "id": 1,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Virtual Private Network"
+        },
+        {
+          "id": 2,
+          "tresc": "Verified Protection Node"
+        },
+        {
+          "id": 3,
+          "tresc": "Variable Privacy Number"
+        },
+        {
+          "id": 4,
+          "tresc": "Virtual Protected Namespace"
+        }
+      ],
+      "pytanie": "Co oznacza skrót VPN w kontekście bezpieczeństwa sieci?",
+      "trudnosc": 1
+    },
+    {
+      "id": 2,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Utrudnienie odczytu danych osobom nieuprawnionym"
+        },
+        {
+          "id": 2,
+          "tresc": "Przyspieszenie działania internetu"
+        },
+        {
+          "id": 3,
+          "tresc": "Ułatwienie indeksowania plików przez system"
+        },
+        {
+          "id": 4,
+          "tresc": "Zwiększenie rozdzielczości przesyłanych obrazów"
+        }
+      ],
+      "pytanie": "Jaki jest główny cel stosowania szyfrowania danych?",
+      "trudnosc": 2
+    },
+    {
+      "id": 3,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Automatyczne zgadywanie wielu możliwych haseł aż do skutku"
+        },
+        {
+          "id": 2,
+          "tresc": "Podszywanie się pod stronę banku z fałszywym formularzem logowania"
+        },
+        {
+          "id": 3,
+          "tresc": "Wysyłanie spamu z linkami reklamowymi"
+        },
+        {
+          "id": 4,
+          "tresc": "Wstrzykiwanie złośliwego kodu do strony WWW"
+        }
+      ],
+      "pytanie": "Co jest przykładem ataku typu 'brute force' na konto użytkownika?",
+      "trudnosc": 2
+    },
+    {
+      "id": 4,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Próby wyłudzenia danych (np. logowania) przez fałszywe wiadomości lub strony"
+        },
+        {
+          "id": 2,
+          "tresc": "Szyfrowanie dysku użytkownika w celu ochrony danych"
+        },
+        {
+          "id": 3,
+          "tresc": "Legalne monitorowanie ruchu sieciowego przez administratora"
+        },
+        {
+          "id": 4,
+          "tresc": "Skuteczne filtrowanie spamu w skrzynce pocztowej"
+        }
+      ],
+      "pytanie": "Co najlepiej opisuje 'phishing'?",
+      "trudnosc": 2
+    },
+    {
+      "id": 5,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Używanie uwierzytelniania dwuskładnikowego (2FA)"
+        },
+        {
+          "id": 2,
+          "tresc": "Używanie tego samego hasła wszędzie"
+        },
+        {
+          "id": 3,
+          "tresc": "Zapisywanie haseł w pliku 'hasła.txt' na pulpicie"
+        },
+        {
+          "id": 4,
+          "tresc": "Wysyłanie hasła koledze w wiadomości bez szyfrowania"
+        }
+      ],
+      "pytanie": "Które z poniższych zachowań zwiększa bezpieczeństwo konta internetowego?",
+      "trudnosc": 1
+    },
+    {
+      "id": 6,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Niespodziewane otwieranie się okien, spowolnienia i dziwne procesy w tle"
+        },
+        {
+          "id": 2,
+          "tresc": "Poprawa wydajności komputera i skrócenie czasu uruchamiania systemu"
+        },
+        {
+          "id": 3,
+          "tresc": "Automatyczne zwiększenie pojemności dysku"
+        },
+        {
+          "id": 4,
+          "tresc": "Trwałe obniżenie rozdzielczości monitora przez producenta"
+        }
+      ],
+      "pytanie": "Co jest typowym objawem infekcji złośliwym oprogramowaniem na komputerze użytkownika?",
+      "trudnosc": 2
+    }
+  ],
+  "hardware": [
+    {
+      "id": 1,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Centralna jednostka przetwarzająca, czyli procesor wykonujący instrukcje programu"
+        },
+        {
+          "id": 2,
+          "tresc": "Karta graficzna"
+        },
+        {
+          "id": 3,
+          "tresc": "Pamięć operacyjna RAM"
+        },
+        {
+          "id": 4,
+          "tresc": "Dysk twardy"
+        }
+      ],
+      "pytanie": "Co to jest CPU?",
+      "trudnosc": 1
+    },
+    {
+      "id": 2,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Dysk HDD"
+        },
+        {
+          "id": 2,
+          "tresc": "Pamięć RAM"
+        },
+        {
+          "id": 3,
+          "tresc": "Karta sieciowa"
+        },
+        {
+          "id": 4,
+          "tresc": "Zasilacz"
+        }
+      ],
+      "pytanie": "Który komponent komputera odpowiada za tymczasowe przechowywanie danych używanych aktualnie przez procesor?",
+      "trudnosc": 1
+    },
+    {
+      "id": 3,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Procesor graficzny odpowiedzialny za obliczenia związane z grafiką"
+        },
+        {
+          "id": 2,
+          "tresc": "Procesor główny komputera"
+        },
+        {
+          "id": 3,
+          "tresc": "Moduł pamięci podręcznej"
+        },
+        {
+          "id": 4,
+          "tresc": "Kontroler dysków twardych"
+        }
+      ],
+      "pytanie": "Co to jest GPU?",
+      "trudnosc": 1
+    },
+    {
+      "id": 4,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "IDE"
+        },
+        {
+          "id": 2,
+          "tresc": "NVMe"
+        },
+        {
+          "id": 3,
+          "tresc": "PS/2"
+        },
+        {
+          "id": 4,
+          "tresc": "VGA"
+        }
+      ],
+      "pytanie": "Jaki standard jest najczęściej używany do podłączania szybkich dysków SSD w nowoczesnych komputerach?",
+      "trudnosc": 2
+    },
+    {
+      "id": 5,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Basic Input/Output System — oprogramowanie startowe płyty głównej"
+        },
+        {
+          "id": 2,
+          "tresc": "Binary Integrated Operating System"
+        },
+        {
+          "id": 3,
+          "tresc": "Basic Internet Online Service"
+        },
+        {
+          "id": 4,
+          "tresc": "Built-In Output Standard"
+        }
+      ],
+      "pytanie": "Co oznacza skrót BIOS?",
+      "trudnosc": 2
+    }
+  ],
+  "języki_programowania": [
+    {
+      "id": 1,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Kod w języku kompilowanym jest tłumaczony do postaci wykonywalnej przed uruchomieniem programu"
+        },
+        {
+          "id": 2,
+          "tresc": "Języki kompilowane nie mają zmiennych"
+        },
+        {
+          "id": 3,
+          "tresc": "Języki interpretowane działają wyłącznie w przeglądarce"
+        },
+        {
+          "id": 4,
+          "tresc": "Języki kompilowane nie mogą korzystać z bibliotek"
+        }
+      ],
+      "pytanie": "Co odróżnia język kompilowany od interpretowanego?",
+      "trudnosc": 2
+    },
+    {
+      "id": 2,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Zestaw reguł określających, jak poprawnie zapisywać konstrukcje w danym języku"
+        },
+        {
+          "id": 2,
+          "tresc": "Sposób kompresji pliku wykonywalnego"
+        },
+        {
+          "id": 3,
+          "tresc": "Zestaw bibliotek standardowych w systemie"
+        },
+        {
+          "id": 4,
+          "tresc": "Domyślny kolor tła w edytorze"
+        }
+      ],
+      "pytanie": "Co to jest składnia (syntax) języka programowania?",
+      "trudnosc": 1
+    },
+    {
+      "id": 3,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Typy danych są sprawdzane przed uruchomieniem programu"
+        },
+        {
+          "id": 2,
+          "tresc": "Typ zmiennej nigdy nie jest sprawdzany"
+        },
+        {
+          "id": 3,
+          "tresc": "Typ zmiennej można zawsze dowolnie zmieniać bez ograniczeń"
+        },
+        {
+          "id": 4,
+          "tresc": "Typ zmiennej zależy wyłącznie od nazwy pliku"
+        }
+      ],
+      "pytanie": "Co oznacza pojęcie 'statyczne typowanie'?",
+      "trudnosc": 3
+    },
+    {
+      "id": 4,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Konstrukcja pozwalająca wielokrotnie wykonywać fragment kodu, dopóki spełniony jest warunek"
+        },
+        {
+          "id": 2,
+          "tresc": "Konstrukcja służąca tylko do deklaracji stałych"
+        },
+        {
+          "id": 3,
+          "tresc": "Specjalny typ komentarza"
+        },
+        {
+          "id": 4,
+          "tresc": "Mechanizm instalowania pakietów"
+        }
+      ],
+      "pytanie": "Co to jest 'pętla' w języku programowania?",
+      "trudnosc": 1
+    },
+    {
+      "id": 5,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Python"
+        },
+        {
+          "id": 2,
+          "tresc": "C++"
+        },
+        {
+          "id": 3,
+          "tresc": "JavaScript"
+        },
+        {
+          "id": 4,
+          "tresc": "SQL"
+        }
+      ],
+      "pytanie": "Który z poniższych języków jest najczęściej używany po stronie przeglądarki (front‑end)?",
+      "trudnosc": 1
+    },
+    {
+      "id": 6,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Pętlę nieskończoną"
+        },
+        {
+          "id": 2,
+          "tresc": "Komentarz blokowy"
+        },
+        {
+          "id": 3,
+          "tresc": "Funkcję"
+        },
+        {
+          "id": 4,
+          "tresc": "Dyrektywę kompilatora"
+        }
+      ],
+      "pytanie": "Jak określa się fragment kodu, który można wywoływać wielokrotnie z różnymi argumentami?",
+      "trudnosc": 1
+    }
+  ],
+  "konteneryzacja_docker": [
+    {
+      "id": 1,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Lekka, izolowana instancja aplikacji z własnym środowiskiem uruchomieniowym"
+        },
+        {
+          "id": 2,
+          "tresc": "Maszyna wirtualna z pełnym systemem operacyjnym"
+        },
+        {
+          "id": 3,
+          "tresc": "Fizyczny serwer w centrum danych"
+        },
+        {
+          "id": 4,
+          "tresc": "Archiwum plików skompresowanych"
+        }
+      ],
+      "pytanie": "Co to jest kontener w kontekście Dockera?",
+      "trudnosc": 1
+    },
+    {
+      "id": 2,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "docker-compose.yml"
+        },
+        {
+          "id": 2,
+          "tresc": "Dockerfile"
+        },
+        {
+          "id": 3,
+          "tresc": "config.yaml"
+        },
+        {
+          "id": 4,
+          "tresc": "Docker.json"
+        }
+      ],
+      "pytanie": "Jaki plik konfiguracyjny definiuje sposób budowania obrazu Dockera?",
+      "trudnosc": 1
+    },
+    {
+      "id": 3,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Niezmienialny szablon używany do tworzenia kontenerów"
+        },
+        {
+          "id": 2,
+          "tresc": "Zrzut ekranu z działającego kontenera"
+        },
+        {
+          "id": 3,
+          "tresc": "Plik konfiguracyjny sieci"
+        },
+        {
+          "id": 4,
+          "tresc": "Dziennik zdarzeń kontenera"
+        }
+      ],
+      "pytanie": "Co to jest obraz (image) w Dockerze?",
+      "trudnosc": 2
+    },
+    {
+      "id": 4,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "docker build"
+        },
+        {
+          "id": 2,
+          "tresc": "docker run"
+        },
+        {
+          "id": 3,
+          "tresc": "docker create"
+        },
+        {
+          "id": 4,
+          "tresc": "docker start"
+        }
+      ],
+      "pytanie": "Które polecenie służy do uruchomienia nowego kontenera z obrazu?",
+      "trudnosc": 1
+    },
+    {
+      "id": 5,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Do definiowania i uruchamiania wielu kontenerów za pomocą pliku YAML"
+        },
+        {
+          "id": 2,
+          "tresc": "Do budowania jądra systemu Linux"
+        },
+        {
+          "id": 3,
+          "tresc": "Do kompresji obrazów Dockera"
+        },
+        {
+          "id": 4,
+          "tresc": "Do monitorowania temperatury serwera"
+        }
+      ],
+      "pytanie": "Do czego służy Docker Compose?",
+      "trudnosc": 2
+    }
+  ],
+  "kopie_zapasowe_i_archiwizacja": [
+    {
+      "id": 1,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Kopia wszystkich wybranych danych, niezależnie od tego, czy uległy zmianie"
+        },
+        {
+          "id": 2,
+          "tresc": "Kopia tylko plików zmienionych od ostatniego tygodnia"
+        },
+        {
+          "id": 3,
+          "tresc": "Kopia tylko plików systemowych"
+        },
+        {
+          "id": 4,
+          "tresc": "Kopia konfiguracji bez danych użytkownika"
+        }
+      ],
+      "pytanie": "Co to jest kopia zapasowa typu full (pełna)?",
+      "trudnosc": 1
+    },
+    {
+      "id": 2,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "3 kopie danych, na 2 różnych nośnikach, z 1 kopią poza siedzibą"
+        },
+        {
+          "id": 2,
+          "tresc": "3 serwery, 2 dyski, 1 sieć"
+        },
+        {
+          "id": 3,
+          "tresc": "3 hasła, 2 klucze, 1 certyfikat"
+        },
+        {
+          "id": 4,
+          "tresc": "3 warstwy zabezpieczeń, 2 firewalle, 1 antywirus"
+        }
+      ],
+      "pytanie": "Co oznacza reguła 3-2-1 w kopiach zapasowych?",
+      "trudnosc": 2
+    },
+    {
+      "id": 3,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Kopia obejmująca tylko dane zmienione od czasu wykonania ostatniej kopii zapasowej"
+        },
+        {
+          "id": 2,
+          "tresc": "Kopia wszystkich danych wykonywana za każdym razem"
+        },
+        {
+          "id": 3,
+          "tresc": "Kopia tylko plików usuniętych"
+        },
+        {
+          "id": 4,
+          "tresc": "Kopia działająca wyłącznie w czasie rzeczywistym"
+        }
+      ],
+      "pytanie": "Co to jest kopia inkrementalna (przyrostowa)?",
+      "trudnosc": 2
+    },
+    {
+      "id": 4,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Maksymalny dopuszczalny czas potrzebny na przywrócenie systemu po awarii"
+        },
+        {
+          "id": 2,
+          "tresc": "Czas tworzenia kopii zapasowej"
+        },
+        {
+          "id": 3,
+          "tresc": "Liczba kopii zapasowych przechowywanych równocześnie"
+        },
+        {
+          "id": 4,
+          "tresc": "Rozmiar kopii zapasowej w gigabajtach"
+        }
+      ],
+      "pytanie": "Co to jest RTO (Recovery Time Objective) w kontekście kopii zapasowych?",
+      "trudnosc": 3
+    },
+    {
+      "id": 5,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "tar.gz"
+        },
+        {
+          "id": 2,
+          "tresc": ".exe"
+        },
+        {
+          "id": 3,
+          "tresc": ".dll"
+        },
+        {
+          "id": 4,
+          "tresc": ".bat"
+        }
+      ],
+      "pytanie": "Który format archiwizacji jest powszechnie używany w systemach Linux?",
+      "trudnosc": 1
+    }
+  ],
+  "kryptografia": [
+    {
+      "id": 1,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Ten sam klucz służy zarówno do szyfrowania, jak i deszyfrowania danych"
+        },
+        {
+          "id": 2,
+          "tresc": "Do szyfrowania używany jest klucz publiczny, a do deszyfrowania prywatny"
+        },
+        {
+          "id": 3,
+          "tresc": "Dane są szyfrowane bez użycia klucza"
+        },
+        {
+          "id": 4,
+          "tresc": "Każdy użytkownik ma unikalny algorytm szyfrowania"
+        }
+      ],
+      "pytanie": "Co to jest kryptografia symetryczna?",
+      "trudnosc": 2
+    },
+    {
+      "id": 2,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "AES"
+        },
+        {
+          "id": 2,
+          "tresc": "RSA"
+        },
+        {
+          "id": 3,
+          "tresc": "DES"
+        },
+        {
+          "id": 4,
+          "tresc": "Blowfish"
+        }
+      ],
+      "pytanie": "Który algorytm jest przykładem kryptografii asymetrycznej?",
+      "trudnosc": 2
+    },
+    {
+      "id": 3,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Jednokierunkowa funkcja przekształcająca dane w ciąg o stałej długości"
+        },
+        {
+          "id": 2,
+          "tresc": "Algorytm do szyfrowania plików"
+        },
+        {
+          "id": 3,
+          "tresc": "Metoda kompresji danych bez strat"
+        },
+        {
+          "id": 4,
+          "tresc": "Protokół wymiany kluczy"
+        }
+      ],
+      "pytanie": "Co to jest funkcja skrótu (hash) w kryptografii?",
+      "trudnosc": 3
+    },
+    {
+      "id": 4,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "SSH"
+        },
+        {
+          "id": 2,
+          "tresc": "TLS"
+        },
+        {
+          "id": 3,
+          "tresc": "FTP"
+        },
+        {
+          "id": 4,
+          "tresc": "DNS"
+        }
+      ],
+      "pytanie": "Który protokół jest współcześnie używany zamiast historycznego SSL do zabezpieczania połączeń WWW?",
+      "trudnosc": 2
+    },
+    {
+      "id": 5,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Dokument elektroniczny potwierdzający tożsamość właściciela klucza publicznego"
+        },
+        {
+          "id": 2,
+          "tresc": "Hasło do konta w serwisie internetowym"
+        },
+        {
+          "id": 3,
+          "tresc": "Licencja na używanie oprogramowania"
+        },
+        {
+          "id": 4,
+          "tresc": "Kod aktywacyjny systemu operacyjnego"
+        }
+      ],
+      "pytanie": "Co to jest certyfikat cyfrowy?",
+      "trudnosc": 2
+    }
+  ],
+  "prawo_i_etyka_w_it": [
+    {
+      "id": 1,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Polska nazwa unijnego rozporządzenia o ochronie danych osobowych (GDPR)"
+        },
+        {
+          "id": 2,
+          "tresc": "Rejestr Oprogramowania i Danych Online"
+        },
+        {
+          "id": 3,
+          "tresc": "Rada Organizacji ds. Rozwoju Online"
+        },
+        {
+          "id": 4,
+          "tresc": "System raportowania danych operacyjnych"
+        }
+      ],
+      "pytanie": "Co to jest RODO?",
+      "trudnosc": 1
+    },
+    {
+      "id": 2,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Pozwala na używanie, analizę, modyfikację i dystrybucję kodu zgodnie z warunkami licencji"
+        },
+        {
+          "id": 2,
+          "tresc": "Zabrania jakichkolwiek modyfikacji kodu"
+        },
+        {
+          "id": 3,
+          "tresc": "Oznacza, że oprogramowanie nie ma autora"
+        },
+        {
+          "id": 4,
+          "tresc": "Wymaga wyłącznie komercyjnego użycia"
+        }
+      ],
+      "pytanie": "Co oznacza licencja open source?",
+      "trudnosc": 1
+    },
+    {
+      "id": 3,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Umowa o poufności (Non-Disclosure Agreement)"
+        },
+        {
+          "id": 2,
+          "tresc": "Umowa o pracę na czas nieokreślony"
+        },
+        {
+          "id": 3,
+          "tresc": "Certyfikat kompetencji zawodowych"
+        },
+        {
+          "id": 4,
+          "tresc": "Regulamin korzystania z internetu"
+        }
+      ],
+      "pytanie": "Co to jest NDA w kontekście pracy w IT?",
+      "trudnosc": 2
+    },
+    {
+      "id": 4,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Ustawa o prawie autorskim i prawach pokrewnych"
+        },
+        {
+          "id": 2,
+          "tresc": "Kodeks pracy"
+        },
+        {
+          "id": 3,
+          "tresc": "Prawo telekomunikacyjne"
+        },
+        {
+          "id": 4,
+          "tresc": "Ustawa o ochronie konkurencji"
+        }
+      ],
+      "pytanie": "Które prawo w Polsce chroni twórców oprogramowania?",
+      "trudnosc": 2
+    },
+    {
+      "id": 5,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Zakaz konkurencji ograniczający podejmowanie pracy u konkurencji po zakończeniu współpracy"
+        },
+        {
+          "id": 2,
+          "tresc": "Klauzula dotycząca ochrony danych osobowych"
+        },
+        {
+          "id": 3,
+          "tresc": "Zgoda na przetwarzanie danych w chmurze"
+        },
+        {
+          "id": 4,
+          "tresc": "Umowa licencyjna na oprogramowanie"
+        }
+      ],
+      "pytanie": "Co to jest klauzula non-compete?",
+      "trudnosc": 3
+    }
+  ],
+  "projektowanie_stron_internetowych": [
+    {
+      "id": 1,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Język znaczników służący do tworzenia struktury stron internetowych"
+        },
+        {
+          "id": 2,
+          "tresc": "Język programowania do tworzenia gier"
+        },
+        {
+          "id": 3,
+          "tresc": "System bazodanowy"
+        },
+        {
+          "id": 4,
+          "tresc": "Protokół przesyłania plików"
+        }
+      ],
+      "pytanie": "Co to jest HTML?",
+      "trudnosc": 1
+    },
+    {
+      "id": 2,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Kaskadowe arkusze stylów służące do definiowania wyglądu stron"
+        },
+        {
+          "id": 2,
+          "tresc": "Język programowania do tworzenia serwerów"
+        },
+        {
+          "id": 3,
+          "tresc": "Narzędzie do edycji zdjęć"
+        },
+        {
+          "id": 4,
+          "tresc": "System zarządzania treścią"
+        }
+      ],
+      "pytanie": "Co to jest CSS?",
+      "trudnosc": 1
+    },
+    {
+      "id": 3,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Tworzenie stron automatycznie dostosowujących się do różnych rozmiarów ekranu"
+        },
+        {
+          "id": 2,
+          "tresc": "Projektowanie stron tylko na komputery stacjonarne"
+        },
+        {
+          "id": 3,
+          "tresc": "Szybkie ładowanie się strony internetowej"
+        },
+        {
+          "id": 4,
+          "tresc": "Odpowiadanie na komentarze użytkowników"
+        }
+      ],
+      "pytanie": "Co oznacza termin 'responsive design' (projektowanie responsywne)?",
+      "trudnosc": 2
+    },
+    {
+      "id": 4,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Szkic układu strony pokazujący rozmieszczenie elementów bez szczegółów graficznych"
+        },
+        {
+          "id": 2,
+          "tresc": "Gotowa strona internetowa opublikowana w internecie"
+        },
+        {
+          "id": 3,
+          "tresc": "Baza danych użytkowników"
+        },
+        {
+          "id": 4,
+          "tresc": "Certyfikat bezpieczeństwa strony"
+        }
+      ],
+      "pytanie": "Co to jest wireframe w projektowaniu stron?",
+      "trudnosc": 2
+    },
+    {
+      "id": 5,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Zapewnienie alternatywnego tekstu (alt) dla obrazów"
+        },
+        {
+          "id": 2,
+          "tresc": "Używanie jak najmniejszego rozmiaru czcionki"
+        },
+        {
+          "id": 3,
+          "tresc": "Ukrywanie menu nawigacyjnego"
+        },
+        {
+          "id": 4,
+          "tresc": "Stosowanie wyłącznie koloru do przekazywania informacji"
+        }
+      ],
+      "pytanie": "Które z poniższych działań jest zasadą dostępności (accessibility) stron internetowych?",
+      "trudnosc": 2
+    }
+  ],
+  "sieci_komputerowe": [
+    {
+      "id": 1,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Internet Program"
+        },
+        {
+          "id": 2,
+          "tresc": "Internet Protocol"
+        },
+        {
+          "id": 3,
+          "tresc": "Internal Port"
+        },
+        {
+          "id": 4,
+          "tresc": "Indexed Packet"
+        }
+      ],
+      "pytanie": "Co oznacza skrót IP?",
+      "trudnosc": 1
+    },
+    {
+      "id": 2,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "FTP"
+        },
+        {
+          "id": 2,
+          "tresc": "SSH"
+        },
+        {
+          "id": 3,
+          "tresc": "HTTPS"
+        },
+        {
+          "id": 4,
+          "tresc": "HTTP"
+        }
+      ],
+      "pytanie": "Który protokół służy do bezpiecznego wyświetlania stron WWW?",
+      "trudnosc": 1
+    },
+    {
+      "id": 3,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Do określenia modelu karty graficznej"
+        },
+        {
+          "id": 2,
+          "tresc": "Do identyfikacji urządzenia w sieci"
+        },
+        {
+          "id": 3,
+          "tresc": "Do mierzenia prędkości procesora"
+        },
+        {
+          "id": 4,
+          "tresc": "Do przechowywania hasła użytkownika"
+        }
+      ],
+      "pytanie": "Do czego służy adres IP w sieci?",
+      "trudnosc": 1
+    },
+    {
+      "id": 4,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Monitor"
+        },
+        {
+          "id": 2,
+          "tresc": "Switch (Przełącznik sieciowy)"
+        },
+        {
+          "id": 3,
+          "tresc": "Router"
+        },
+        {
+          "id": 4,
+          "tresc": "Dysk SSD"
+        }
+      ],
+      "pytanie": "Które urządzenie zwykle łączy sieć lokalną z internetem?",
+      "trudnosc": 1
+    },
+    {
+      "id": 5,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Data Network Standard"
+        },
+        {
+          "id": 2,
+          "tresc": "Digital Node System"
+        },
+        {
+          "id": 3,
+          "tresc": "Domain Name System"
+        },
+        {
+          "id": 4,
+          "tresc": "Dynamic Number Service"
+        }
+      ],
+      "pytanie": "Co oznacza skrót DNS?",
+      "trudnosc": 2
+    }
+  ],
+  "systemy_operacyjne": [
+    {
+      "id": 1,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Zarządzanie zasobami komputera i uruchamianiem programów"
+        },
+        {
+          "id": 2,
+          "tresc": "Tworzenie kopii zapasowych wszystkich plików użytkownika"
+        },
+        {
+          "id": 3,
+          "tresc": "Kompilowanie każdego programu przed uruchomieniem"
+        },
+        {
+          "id": 4,
+          "tresc": "Zastępowanie pamięci RAM w obliczeniach"
+        }
+      ],
+      "pytanie": "Jaka jest główna rola systemu operacyjnego?",
+      "trudnosc": 1
+    },
+    {
+      "id": 2,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Każdym plikiem znajdującym się na dysku"
+        },
+        {
+          "id": 2,
+          "tresc": "Uruchomionym egzemplarzem programu"
+        },
+        {
+          "id": 3,
+          "tresc": "Sterownikiem urządzenia"
+        },
+        {
+          "id": 4,
+          "tresc": "Fragmentem pamięci RAM bez kodu"
+        }
+      ],
+      "pytanie": "Czym jest proces w systemie operacyjnym?",
+      "trudnosc": 1
+    },
+    {
+      "id": 3,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Do fizycznego zwiększenia liczby kości RAM"
+        },
+        {
+          "id": 2,
+          "tresc": "Do rozszerzenia dostępnej pamięci przez wykorzystanie przestrzeni dyskowej"
+        },
+        {
+          "id": 3,
+          "tresc": "Do przechowywania wyłącznie sterowników urządzeń"
+        },
+        {
+          "id": 4,
+          "tresc": "Do zwiększania liczby rdzeni procesora"
+        }
+      ],
+      "pytanie": "Do czego służy pamięć wirtualna?",
+      "trudnosc": 2
+    },
+    {
+      "id": 4,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Kompilator"
+        },
+        {
+          "id": 2,
+          "tresc": "Interpreter"
+        },
+        {
+          "id": 3,
+          "tresc": "Sterownik"
+        },
+        {
+          "id": 4,
+          "tresc": "Edytor tekstu"
+        }
+      ],
+      "pytanie": "Który z poniższych elementów odpowiada zwykle za bezpośrednią komunikację systemu z urządzeniem?",
+      "trudnosc": 2
+    },
+    {
+      "id": 5,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Możliwość instalacji tylko jednego programu"
+        },
+        {
+          "id": 2,
+          "tresc": "Obsługę wyłącznie wielu monitorów"
+        },
+        {
+          "id": 3,
+          "tresc": "Wykonywanie wielu zadań pozornie równocześnie"
+        },
+        {
+          "id": 4,
+          "tresc": "To, że system nie ma jądra"
+        }
+      ],
+      "pytanie": "Co zwykle oznacza wielozadaniowość systemu operacyjnego?",
+      "trudnosc": 1
+    }
+  ],
+  "sztuczna_inteligencja": [
+    {
+      "id": 1,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Machine Learning (uczenie maszynowe)"
+        },
+        {
+          "id": 2,
+          "tresc": "Memory Logic"
+        },
+        {
+          "id": 3,
+          "tresc": "Multi Layer"
+        },
+        {
+          "id": 4,
+          "tresc": "Meta Language"
+        }
+      ],
+      "pytanie": "Co oznacza skrót ML w kontekście sztucznej inteligencji?",
+      "trudnosc": 1
+    },
+    {
+      "id": 2,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Uczenie nadzorowane (supervised learning)"
+        },
+        {
+          "id": 2,
+          "tresc": "Uczenie nienadzorowane (unsupervised learning)"
+        },
+        {
+          "id": 3,
+          "tresc": "Uczenie przez wzmacnianie (reinforcement learning)"
+        },
+        {
+          "id": 4,
+          "tresc": "Uczenie transferowe (transfer learning)"
+        }
+      ],
+      "pytanie": "Który typ uczenia maszynowego wykorzystuje dane z etykietami do trenowania modelu?",
+      "trudnosc": 2
+    },
+    {
+      "id": 3,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Zbyt duże dopasowanie modelu do danych treningowych, w tym do szumów"
+        },
+        {
+          "id": 2,
+          "tresc": "Zbyt mała liczba danych treningowych"
+        },
+        {
+          "id": 3,
+          "tresc": "Zbyt wolne trenowanie modelu"
+        },
+        {
+          "id": 4,
+          "tresc": "Brak wystarczającej liczby warstw w sieci neuronowej"
+        }
+      ],
+      "pytanie": "Co to jest 'overfitting' (przetrenowanie) w uczeniu maszynowym?",
+      "trudnosc": 3
+    },
+    {
+      "id": 4,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Natural Language Processing — przetwarzanie języka naturalnego"
+        },
+        {
+          "id": 2,
+          "tresc": "Neural Learning Protocol"
+        },
+        {
+          "id": 3,
+          "tresc": "Network Layer Processing"
+        },
+        {
+          "id": 4,
+          "tresc": "Non-Linear Programming"
+        }
+      ],
+      "pytanie": "Co oznacza termin NLP w kontekście sztucznej inteligencji?",
+      "trudnosc": 2
+    },
+    {
+      "id": 5,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Automatyczne tłumaczenie tekstu z jednego języka na inny"
+        },
+        {
+          "id": 2,
+          "tresc": "Rozpoznawanie twarzy na zdjęciach"
+        },
+        {
+          "id": 3,
+          "tresc": "Sterowanie robotem przemysłowym"
+        },
+        {
+          "id": 4,
+          "tresc": "Kompresja plików graficznych"
+        }
+      ],
+      "pytanie": "Który z poniższych przykładów jest zastosowaniem NLP?",
+      "trudnosc": 2
+    }
+  ],
+  "usługi_chmurowe_iaas": [
+    {
+      "id": 1,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Infrastructure as a Service"
+        },
+        {
+          "id": 2,
+          "tresc": "Internet as a Service"
+        },
+        {
+          "id": 3,
+          "tresc": "Integrated Application System"
+        },
+        {
+          "id": 4,
+          "tresc": "Internal Access Server"
+        }
+      ],
+      "pytanie": "Co oznacza skrót IaaS?",
+      "trudnosc": 1
+    },
+    {
+      "id": 2,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Amazon S3"
+        },
+        {
+          "id": 2,
+          "tresc": "Amazon EC2"
+        },
+        {
+          "id": 3,
+          "tresc": "AWS Lambda"
+        },
+        {
+          "id": 4,
+          "tresc": "Amazon RDS"
+        }
+      ],
+      "pytanie": "Który z poniższych serwisów AWS jest przykładem usługi IaaS?",
+      "trudnosc": 2
+    },
+    {
+      "id": 3,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Infrastruktura współdzielona przez wielu klientów, dostępna przez internet"
+        },
+        {
+          "id": 2,
+          "tresc": "Serwer fizyczny znajdujący się w siedzibie firmy"
+        },
+        {
+          "id": 3,
+          "tresc": "Sieć lokalna odizolowana od internetu"
+        },
+        {
+          "id": 4,
+          "tresc": "Prywatna sieć VPN dla jednego użytkownika"
+        }
+      ],
+      "pytanie": "Co to jest model chmury publicznej (public cloud)?",
+      "trudnosc": 1
+    },
+    {
+      "id": 4,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "Service Level Agreement — umowa o poziomie usług"
+        },
+        {
+          "id": 2,
+          "tresc": "Secure Login Authentication"
+        },
+        {
+          "id": 3,
+          "tresc": "System Load Analyzer"
+        },
+        {
+          "id": 4,
+          "tresc": "Standard Library Architecture"
+        }
+      ],
+      "pytanie": "Co oznacza skrót SLA w kontekście usług chmurowych?",
+      "trudnosc": 2
+    },
+    {
+      "id": 5,
+      "odpowiedzi": [
+        {
+          "id": 1,
+          "tresc": "W IaaS użytkownik zarządza systemem operacyjnym, w SaaS korzysta z gotowej aplikacji"
+        },
+        {
+          "id": 2,
+          "tresc": "IaaS jest zawsze darmowy, a SaaS jest płatny"
+        },
+        {
+          "id": 3,
+          "tresc": "SaaS wymaga fizycznych serwerów, a IaaS nie"
+        },
+        {
+          "id": 4,
+          "tresc": "Nie ma żadnej różnicy, to synonimy"
+        }
+      ],
+      "pytanie": "Jaka jest główna różnica między modelem IaaS a SaaS?",
+      "trudnosc": 3
+    }
+  ]
+}
