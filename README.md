@@ -3,7 +3,8 @@
 <p align="center">
   <a href="#do-zrobienia">Do zrobienia</a> •
   <a href="#treść-zadania-z-moodla">Treść zadania</a> •
-  <a href="#autorzy">Autorzy</a>
+  <a href="#autorzy">Autorzy</a> •
+  <a href="https://github.com/JanDziaslo/milionerzy/wiki">Dokumentacja</a>
 </p>
 
 Prosty quiz napisany w python bez użycia zewnętrznych biblotek.
@@ -11,7 +12,7 @@ Dokumentacja projektu znajduje sie w zakładce wiki na github.
 
 ## Do zrobienia
 
-- [ ]  Aplikacja w python
+- [x]  Aplikacja w python
 	- [x]  losowanie k pytań ze zbioru n pytań
 	- [x]  Kolejnosc odpowiedzi jest losowa
 	- [x]  Surowe pytania i odpowiedzi znajduja sie w osobnym pliku
@@ -21,13 +22,13 @@ Dokumentacja projektu znajduje sie w zakładce wiki na github.
     - [x]  zliczanie punktow tak jak jest to w milionerach (1000, 2000, 5000, 10000, 15000, 25000, 50000, 75000, 125000, 250000, 500000, 1000000)
     - [ ]  moze jak beda checi to kola ratunkowe (50/50, telefon do przyjaciela, pytanie do publicznosci)
 	- [x]  Wyniki oraz imie i nazwisko gracza w jeszcze innym pliku
-	- [?]  debilo odporne
-- [ ] Dokumentacja
-	- [ ] znajduje sie w zakladce wiki na github 
-	- [ ] wyjasnia jak dziala aplikacja
-	- [ ] jak z niej korzystac
-	- [ ] jak jest zbudowana 
-	- [ ] zawiera tworcow
+	- [x]  debilo odporne
+- [x] Dokumentacja
+	- [x] znajduje sie w zakladce wiki na github 
+	- [x] wyjasnia jak dziala aplikacja
+	- [x] jak z niej korzystac
+	- [x] jak jest zbudowana 
+	- [x] zawiera tworcow
 ## Treść zadania z moodla
 
 ```txt
