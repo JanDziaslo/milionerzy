@@ -1,7 +1,16 @@
 # Milionerzy
+
+<p align="center">
+  <a href="#do-zrobienia">Do zrobienia</a> •
+  <a href="#treść-zadania-z-moodla">Treść zadania</a> •
+  <a href="#autorzy">Autorzy</a>
+</p>
+
 Prosty quiz napisany w python bez użycia zewnętrznych biblotek.
 Dokumentacja projektu znajduje sie w zakładce wiki na github.
+
 ## Do zrobienia
+
 - [ ]  Aplikacja w python
 	- [x]  losowanie k pytań ze zbioru n pytań
 	- [x]  Kolejnosc odpowiedzi jest losowa
@@ -19,9 +28,9 @@ Dokumentacja projektu znajduje sie w zakładce wiki na github.
 	- [ ] jak z niej korzystac
 	- [ ] jak jest zbudowana 
 	- [ ] zawiera tworcow
-	
 ## Treść zadania z moodla
-```
+
+```txt
 Napisz aplikację quiz, która losuje k pytań ze zbioru n pytań. Kolejność odpowiedzi również jest losowa.
 
 Pytania i odpowiedzi znajdują się w jednym pliku, poprawne odpowiedzi w drugim, wyniki oraz imię i nazwisko osoby rozwiązującej zapisywane będzie w  trzecim pliku. 
@@ -33,9 +42,9 @@ Przygotuj dokumentację aplikacji (jak działa, jak z niej korzystać, jak jest 
 Prześlij do oceny cały projekt zwierający zarówno plik py jak i 3 pliki txt spakowane do np. zip, rar, 7z. 
 ```
 
+## Autorzy
+
 > [!NOTE]
-> Autorzy: 
-> 
 > - [JanDziaslo](https://github.com/JanDziaslo) (Bartosz N.)
 >
 > - [Mord0reK](https://github.com/Mord0reK) (Marcel S.)
