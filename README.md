@@ -7,12 +7,12 @@ Dokumentacja projektu znajduje sie w zakładce wiki na github.
 	- [x]  Kolejnosc odpowiedzi jest losowa
 	- [x]  Surowe pytania i odpowiedzi znajduja sie w osobnym pliku
 	- [x]  Poprawne odpowiedzi znajduja sie w innym pliku (zeby przypadkiem za latwo nie bylo)
-    - [ ]  mozliwosc wyboru odpowiedzi przez uzytkownika
-    - [ ]  sprawdzanie czy odpowiedz jest poprawna
-    - [ ]  zliczanie punktow tak jak jest to w milionerach (1000, 2000, 5000, 10000, 15000, 25000, 50000, 75000, 125000, 250000, 500000, 1000000)
+    - [x]  mozliwosc wyboru odpowiedzi przez uzytkownika
+    - [x]  sprawdzanie czy odpowiedz jest poprawna
+    - [x]  zliczanie punktow tak jak jest to w milionerach (1000, 2000, 5000, 10000, 15000, 25000, 50000, 75000, 125000, 250000, 500000, 1000000)
     - [ ]  moze jak beda checi to kola ratunkowe (50/50, telefon do przyjaciela, pytanie do publicznosci)
-	- [ ]  Wyniki oraz imie i nazwisko gracza w jeszcze innym pliku
-	- [ ]  debilo odporne
+	- [x]  Wyniki oraz imie i nazwisko gracza w jeszcze innym pliku
+	- [?]  debilo odporne
 - [ ] Dokumentacja
 	- [ ] znajduje sie w zakladce wiki na github 
 	- [ ] wyjasnia jak dziala aplikacja
