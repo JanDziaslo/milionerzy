@@ -1,7 +1,6 @@
 import random
 import json
 import re
-import sys
 from dane import wczytaj_pytania, wczytaj_odpowiedzi
 from datetime import datetime
 
@@ -129,4 +128,3 @@ if __name__ == "__main__":
         main()
     except KeyboardInterrupt:
         print("\nGra przerwana przez użytkownika.")
-        sys.exit(0)
