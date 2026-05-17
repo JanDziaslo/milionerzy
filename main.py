@@ -1,6 +1,7 @@
 import random
 import json
-from dane import *
+import re
+from dane import wczytaj_pytania, wczytaj_odpowiedzi
 from datetime import datetime
 
 
@@ -8,9 +9,13 @@ def main():
     # pobierz imię i nazwisko gracza
     while True:
         player_name = input("Podaj imię i nazwisko: ").strip()
-        if player_name:
-            break
-        print("Proszę podać niepuste imię i nazwisko.")
+        if not player_name:
+            print("Proszę podać niepuste imię i nazwisko.")
+            continue
+        if re.search(r'[\x00-\x1f\x7f-\x9f]', player_name):
+            print("Imię nie może zawierać znaków kontrolnych.")
+            continue
+        break
 
     pytania = wczytaj_pytania("pytania.json")
     odpowiedzi = wczytaj_odpowiedzi("odpowiedzi.json")
@@ -29,14 +34,16 @@ def main():
     # skala nagród jak w Milionerach (pozycja 1 => 1000 za 1 poprawną odpowiedź)
     nagrody = [1000, 2000, 5000, 10000, 15000, 25000, 50000, 75000, 125000, 250000, 500000, 1000000]
     for i, wylosowane in enumerate(wylosowane_pytania, 1):
-        # znajdź treść poprawnej odpowiedzi PRZED tasowaniem
+        # znajdź ID poprawnej odpowiedzi PRZED tasowaniem
         cat_list = odpowiedzi.get(wylosowane['kategoria'], [])
         correct_entry = next((e for e in cat_list if e.get('id') == wylosowane.get('id')), None)
-        correct_tresc = None
+        correct_orig_id = None
         if correct_entry:
-            orig_id = correct_entry.get('odpowiedz')
-            orig_ans = next((a for a in wylosowane['odpowiedzi'] if a.get('id') == orig_id), None)
-            correct_tresc = orig_ans['tresc'] if orig_ans else None
+            correct_orig_id = correct_entry.get('odpowiedz')
+
+        # zapisz oryginalne ID przed tasowaniem (bo ID zostaną nadpisane po shuffle)
+        for odp in wylosowane['odpowiedzi']:
+            odp['orig_id'] = odp.get('id')
 
         # losowa kolejność odpowiedzi
         random.shuffle(wylosowane['odpowiedzi'])
@@ -45,11 +52,11 @@ def main():
         for idx, odp in enumerate(wylosowane['odpowiedzi'], 1):
             odp['id'] = idx
 
-        # znajdź nową pozycję poprawnej odpowiedzi po tasowaniu
+        # znajdź nową pozycję poprawnej odpowiedzi po tasowaniu używając oryginalnego ID
         correct_num = None
-        if correct_tresc:
+        if correct_orig_id is not None:
             for odp in wylosowane['odpowiedzi']:
-                if odp['tresc'] == correct_tresc:
+                if odp.get('orig_id') == correct_orig_id:
                     correct_num = odp['id']
                     break
 
@@ -65,8 +72,8 @@ def main():
         while True:
             ans = input("Podaj numer odpowiedzi: ").strip()
 
-            if not ans.isdigit():
-                print("Proszę wpisać numer odpowiedzi.")
+            if not re.match(r'^[1-4]$', ans):
+                print("Proszę wpisać numer odpowiedzi (1-4).")
                 continue
 
             ans_num = int(ans)
@@ -117,4 +124,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\nGra przerwana przez użytkownika.")
