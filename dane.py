@@ -1,5 +1,4 @@
 import json
-import sys
 
 
 def wczytaj_pytania(sciezka):
@@ -8,13 +7,13 @@ def wczytaj_pytania(sciezka):
             return json.load(f)
     except FileNotFoundError:
         print(f"Błąd: Nie znaleziono pliku '{sciezka}'.")
-        sys.exit(1)
+        exit(1)
     except json.JSONDecodeError as e:
         print(f"Błąd: Plik '{sciezka}' zawiera nieprawidłowy format JSON: {e}")
-        sys.exit(1)
+        exit(1)
     except Exception as e:
         print(f"Błąd: Nie udało się wczytać pliku '{sciezka}': {e}")
-        sys.exit(1)
+        exit(1)
 
 
 def wczytaj_odpowiedzi(sciezka):
@@ -23,10 +22,10 @@ def wczytaj_odpowiedzi(sciezka):
             return json.load(f)
     except FileNotFoundError:
         print(f"Błąd: Nie znaleziono pliku '{sciezka}'.")
-        sys.exit(1)
+        exit(1)
     except json.JSONDecodeError as e:
         print(f"Błąd: Plik '{sciezka}' zawiera nieprawidłowy format JSON: {e}")
-        sys.exit(1)
+        exit(1)
     except Exception as e:
         print(f"Błąd: Nie udało się wczytać pliku '{sciezka}': {e}")
-        sys.exit(1)
+        exit(1)
